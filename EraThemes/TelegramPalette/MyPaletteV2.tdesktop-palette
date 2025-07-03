@@ -1,0 +1,421 @@
+// CUSTOM TELEGRAM THEME
+// Based on your color palette
+
+// Base colors
+bg0_hard: #2a2a28;        // основной фон
+bg0:      #2f2f2d;        // чуть светлее фона
+bg0_soft: #333331;        // блоки сообщений
+bg1:      #3a3a37;        // светлее для hover
+bg2:      #4a4946;        // borders и разделители
+bg3:      #5a5954;        // еще светлее
+bg4:      #6a6964;        // самый светлый фон
+
+overlay: #2a2a2880;       // прозрачный overlay
+overlay_hard: #2a2a28c0;  // менее прозрачный overlay
+
+neutral_gray: #8a8a85;    // нейтральный серый
+
+fg:       #c0beb5;        // основной текст
+fg0:      #f9f8f4;        // текст сообщений (самый светлый)
+fg1:      #c0beb5;        // обычный текст
+fg2:      #aeaca3;        // чуть темнее текст
+fg3:      #9c9a91;        // еще темнее
+fg4:      #8a887f;        // самый темный текст
+
+// Accent colors
+bright_orange:  #ba694b;   // основной акцентный
+bright_blue:    #3d6cac;   // редкий цвет
+bright_red:     #d67762;   // для ошибок/внимания
+bright_green:   #9b7aa6;   // фиолетовый вместо зеленого
+bright_yellow:  #c9a96e;   // для предупреждений
+bright_purple:  #a67ba6;   // дополнительный
+bright_aqua:    #6b9b9b;   // дополнительный
+
+// Neutral versions
+neutral_orange: #a85a3f;
+neutral_blue:   #335a96;
+neutral_red:    #c1624f;
+neutral_green:  #896894;   // нейтральный фиолетовый
+neutral_yellow: #b8955c;
+neutral_purple: #946b94;
+neutral_aqua:   #598888;
+
+// Faded versions
+faded_orange:   #965036;
+faded_blue:     #2b4d83;
+faded_red:      #ad5142;
+faded_green:    #775782;   // приглушенный фиолетовый
+faded_yellow:   #a6824b;
+faded_purple:   #825982;
+faded_aqua:     #4a7575;
+
+// Material versions (для файлов)
+material_orange: #ba694b;
+material_blue:   #3d6cac;
+material_red:    #d67762;
+material_green:  #9b7aa6;   // материал фиолетовый
+material_yellow: #c9a96e;
+material_purple: #a67ba6;
+material_aqua:   #6b9b9b;
+
+none: #00000000;
+
+// Window basics
+windowActiveTextFg: bright_orange;
+windowBg: bg0_hard;
+windowBgActive: windowActiveTextFg;
+windowBgOver: bg0_soft;
+windowBgRipple: none;
+windowFg: fg;
+windowFgActive: fg;
+windowFgOver: fg;
+windowBoldFg: windowFg;
+windowBoldFgOver: windowBoldFg;
+windowShadowFg: none;
+windowShadowFgFallback: none;
+windowSubTextFg: fg4;
+windowSubTextFgOver: windowSubTextFg;
+
+shadowFg: windowBg;
+
+// Scrollbars
+scrollBarBg: none;
+scrollBg: none;
+scrollBarBgOver: none;
+scrollBgOver: none;
+
+// Main menu
+mainMenuBg: windowBg;
+mainMenuCoverBg: bg2;
+mainMenuCoverFg: windowFg;
+mainMenuCloudFg: fg0;
+mainMenuCloudBg: fg4;
+
+// Popup menus
+menuBg: windowBg;
+menuBgOver: windowBgOver;
+menuBgRipple: windowBgRipple;
+menuIconFg: bg3;
+menuIconFgOver: fg3;
+menuSubmenuArrowFg: windowFg;
+menuFgDisabled: bg4;
+menuSeparatorFg: bg1;
+
+smallCloseIconFg: menuIconFg;
+smallCloseIconFgOver: menuIconFgOver;
+
+checkboxFg: menuIconFg;
+
+// Input fields
+activeLineFg: fg2;
+activeLineFgError: bright_red;
+inputBorderFg: bg4;
+placeholderFg: neutral_gray;
+placeholderFgActive: bg4;
+filterInputBorderFg: neutral_gray;
+filterInputInactiveBg: bg1;
+filterInputActiveBg: filterInputInactiveBg;
+
+// Buttons
+activeButtonBg: neutral_orange;
+activeButtonBgOver: bright_orange;
+activeButtonBgRipple: windowBgRipple;
+activeButtonFg: fg;
+activeButtonFgOver: activeButtonFg;
+activeButtonSecondaryFg: fg3;
+activeButtonSecondaryFgOver: activeButtonSecondaryFg;
+lightButtonBg: menuBg;
+lightButtonBgOver: menuBgOver;
+lightButtonFg: fg1;
+lightButtonFgOver: lightButtonFg;
+lightButtonBgRipple: windowBgRipple;
+attentionButtonFg: bright_red;
+attentionButtonFgOver: attentionButtonFg;
+attentionButtonBgOver: lightButtonBgOver;
+attentionButtonBgRipple: windowBgRipple;
+
+// Calls
+callArrowFg: bright_green;
+callArrowMissedFg: bright_red;
+
+// Tooltips
+tooltipBg: menuBg;
+tooltipFg: windowFg;
+tooltipBorderFg: none;
+
+// Sliders
+sliderBgInactive: bg0;
+sliderBgActive: windowActiveTextFg;
+
+// Dialogs (chat list)
+dialogsBg: bg0_soft;           // фон списка чатов изменен на #333331
+dialogsDateFg: neutral_gray;
+dialogsNameFg: fg1;
+dialogsTextFg: fg4;
+dialogsTextFgService: bright_yellow;
+dialogsRippleBg: windowBgRipple;
+dialogsUnreadBg: bright_red;
+dialogsUnreadBgMuted: neutral_gray;
+dialogsUnreadFg: fg;
+dialogsDraftFg: bright_red;
+dialogsSendingIconFg: neutral_gray;
+dialogsSentIconFg: bright_yellow;
+dialogsOnlineBadgeFg: bright_green;
+
+// Dialogs hover
+dialogsBgOver: windowBgOver;
+dialogsDateFgOver: dialogsDateFg;
+dialogsNameFgOver: dialogsNameFg;
+dialogsTextFgOver: dialogsTextFg;
+dialogsTextFgServiceOver: dialogsTextFgService;
+dialogsUnreadBgOver: dialogsUnreadBg;
+dialogsUnreadBgMutedOver: dialogsUnreadBgMuted;
+dialogsUnreadFgOver: dialogsUnreadFg;
+dialogsDraftFgOver: dialogsDraftFg;
+dialogsSendingIconFgOver: dialogsSendingIconFg;
+dialogsSentIconFgOver: dialogsSentIconFg;
+
+// Dialogs active
+dialogsBgActive: bg1;
+dialogsDateFgActive: dialogsDateFg;
+dialogsNameFgActive: dialogsNameFg;
+dialogsTextFgActive: dialogsTextFg;
+dialogsTextFgServiceActive: dialogsTextFgService;
+dialogsRippleBgActive: none;
+dialogsUnreadBgActive: dialogsUnreadBg;
+dialogsUnreadBgMutedActive: dialogsUnreadBgMuted;
+dialogsUnreadFgActive: dialogsUnreadFg;
+dialogsDraftFgActive: dialogsDraftFg;
+dialogsSendingIconFgActive: dialogsSendingIconFg;
+dialogsSentIconFgActive: dialogsSentIconFg;
+dialogsOnlineBadgeFgActive: dialogsOnlineBadgeFg;
+
+// Boxes
+boxBg: windowBg;
+boxTextFg: windowFg;
+boxTextFgGood: bright_green;
+boxTextFgError: bright_red;
+boxTitleFg: windowFg;
+boxSearchBg: filterInputInactiveBg;
+boxTitleAdditionalFg: fg4;
+boxTitleCloseFg: smallCloseIconFg;
+boxTitleCloseFgOver: smallCloseIconFgOver;
+
+// Messages
+msgInBg: bg0_soft;             // входящие сообщения
+msgInDateFg: fg4;
+msgInShadow: #4a494680;        // бордер входящих сообщений
+msgInMonoFg: bright_blue;
+
+msgOutBg: bg2;                 // исходящие сообщения  
+msgOutDateFg: fg4;
+msgOutShadow: #4a494680;       // бордер исходящих сообщений
+msgOutMonoFg: bright_blue;
+
+msgServiceFg: fg1;
+msgServiceBg: bg1;
+msgInServiceFg: bright_orange;
+msgOutServiceFg: msgInServiceFg;
+msgInReplyBarColor: msgInServiceFg;
+msgOutReplyBarColor: msgOutServiceFg;
+msgImgReplyBarColor: msgInServiceFg;
+
+// File messages
+msgFileThumbLinkInFg: windowActiveTextFg;
+msgFileThumbLinkOutFg: windowActiveTextFg;
+
+msgDateImgFg: windowFg;
+msgDateImgBg: overlay_hard;
+
+msgFileInBg: bg2;
+msgFileOutBg: bg4;
+msgFile1Bg: material_blue;
+msgFile1BgDark: msgFile1Bg;
+msgFile2Bg: material_aqua;
+msgFile2BgDark: msgFile2Bg;
+msgFile3Bg: material_red;
+msgFile3BgDark: msgFile3Bg;
+msgFile4Bg: material_yellow;
+msgFile4BgDark: msgFile4Bg;
+
+msgFileInBgOver: msgFileInBg;
+msgFileOutBgOver: msgFileOutBg;
+msgFile1BgOver: msgFile1Bg;
+msgFile2BgOver: msgFile2Bg;
+msgFile3BgOver: msgFile3Bg;
+msgFile4BgOver: msgFile4Bg;
+
+msgDateImgBgOver: msgDateImgBg;
+
+// Selected messages
+msgInBgSelected: bg4;
+msgInDateFgSelected: windowFg;
+msgInShadowSelected: windowShadowFg;
+msgInMonoFgSelected: msgInMonoFg;
+
+msgOutBgSelected: bg4;
+msgOutDateFgSelected: windowFg;
+msgOutShadowSelected: windowShadowFg;
+msgOutMonoFgSelected: msgOutMonoFg;
+
+msgSelectOverlay: overlay;
+msgStickerOverlay: overlay;
+msgInReplyBarSelColor: windowFg;
+msgOutReplyBarSelColor: windowFg;
+msgServiceBgSelected: bg4;
+msgInServiceFgSelected: windowFg;
+msgOutServiceFgSelected: windowFg;
+
+msgFileThumbLinkInFgSelected: msgFileThumbLinkInFg;
+msgFileThumbLinkOutFgSelected: msgFileThumbLinkOutFg;
+
+msgDateImgBgSelected: msgDateImgBg;
+
+msgFileInBgSelected: msgFileInBg;
+msgFileOutBgSelected: msgFileOutBg;
+msgFile1BgSelected: msgFile1Bg;
+msgFile2BgSelected: msgFile2Bg;
+msgFile3BgSelected: msgFile3Bg;
+msgFile4BgSelected: msgFile4Bg;
+
+// History text
+historyTextInFg: fg0;
+historyTextOutFg: fg0;
+
+// History calls
+historyCallArrowInFg: callArrowFg;
+historyCallArrowMissedInFg: callArrowMissedFg;
+historyCallArrowOutFg: historyTextInFg;
+
+// History peer colors
+historyPeer1NameFg: bright_red;
+historyPeer1UserpicBg: material_red;
+historyPeer2NameFg: bright_green;
+historyPeer2UserpicBg: material_green;
+historyPeer3NameFg: bright_yellow;
+historyPeer3UserpicBg: material_yellow;
+historyPeer4NameFg: fg4;
+historyPeer4UserpicBg: neutral_gray;
+historyPeer5NameFg: bright_purple;
+historyPeer5UserpicBg: material_purple;
+historyPeer6NameFg: bright_blue;
+historyPeer6UserpicBg: material_blue;
+historyPeer7NameFg: bright_aqua;
+historyPeer7UserpicBg: material_aqua;
+historyPeer8NameFg: bright_orange;
+historyPeer8UserpicBg: material_orange;
+historyPeerUserpicFg: fg0;
+
+historyPinnedBg: msgInBg;
+
+// History scrollbar
+historyScrollBarBg: scrollBarBg;
+historyScrollBarBgOver: scrollBarBgOver;
+historyScrollBg: scrollBg;
+historyScrollBgOver: scrollBgOver;
+
+// History icons
+historyOutIconFg: dialogsSentIconFg;
+historyIconFgInverted: historyOutIconFg;
+
+historySendingOutIconFg: historyOutIconFg;
+historySendingInIconFg: historySendingOutIconFg;
+historySendingInvertedIconFg: historyIconFgInverted;
+
+historyUnreadBarBg: msgInBg;
+historyUnreadBarBorder: windowShadowFg;
+historyUnreadBarFg: historyTextInFg;
+
+historyReplyCancelFg: menuIconFg;
+historyReplyCancelFgOver: menuIconFgOver;
+historyReplyIconFg: windowActiveTextFg;
+historySendIconFg: windowActiveTextFg;
+historySendIconFgOver: historySendIconFg;
+
+historyToDownBg: menuBg;
+historyToDownBgOver: menuBgOver;
+historyToDownBgRipple: windowBgRipple;
+historyToDownFg: menuIconFg;
+historyToDownFgOver: menuIconFgOver;
+historyToDownShadow: #00000040;
+
+// History files
+historyFileNameInFg: historyTextInFg;
+historyFileNameOutFg: historyTextOutFg;
+
+historyFileInIconFg: fg1;
+historyFileInRadialFg: historyFileInIconFg;
+historyFileOutIconFg: fg1;
+historyFileOutRadialFg: historyFileOutIconFg;
+historyFileThumbIconFg: fg1;
+historyFileThumbRadialFg: historyFileThumbIconFg;
+
+// History selected
+historyTextInFgSelected: windowFg;
+historyTextOutFgSelected: windowFg;
+
+historyOutIconFgSelected: windowFg;
+historyCallArrowInFgSelected: windowFg;
+historyCallArrowMissedInFgSelected: windowFg;
+historyCallArrowOutFgSelected: windowFg;
+
+historyPeer1NameFgSelected: windowFg;
+historyPeer2NameFgSelected: windowFg;
+historyPeer3NameFgSelected: windowFg;
+historyPeer4NameFgSelected: windowFg;
+historyPeer5NameFgSelected: windowFg;
+historyPeer6NameFgSelected: windowFg;
+historyPeer7NameFgSelected: windowFg;
+historyPeer8NameFgSelected: windowFg;
+
+historyFileNameInFgSelected: windowFg;
+historyFileNameOutFgSelected: windowFg;
+
+historyFileInIconFgSelected: historyFileInIconFg;
+historyFileInRadialFgSelected: historyFileInRadialFg;
+historyFileOutIconFgSelected: historyFileOutIconFg;
+historyFileOutRadialFgSelected: historyFileOutRadialFg;
+historyFileThumbIconFgSelected: historyFileThumbIconFg;
+historyFileThumbRadialFgSelected: historyFileThumbRadialFg;
+
+// Profile
+profileAdminStartFg: bright_red;
+
+// Overview
+overviewPhotoSelectOverlay: overlay;
+
+// Title bar
+titleBg: bg0;
+titleBgActive: titleBg;
+titleShadow: windowShadowFg;
+titleButtonBg: none;
+titleButtonFg: none;
+titleButtonCloseBg: none;
+titleButtonCloseFg: none;
+
+titleButtonBgOver: titleButtonBg;
+titleButtonFgOver: titleButtonFg;
+titleButtonCloseBgOver: titleButtonBgOver;
+titleButtonCloseFgOver: titleButtonFgOver;
+
+titleButtonBgActive: titleButtonBg;
+titleButtonFgActive: titleButtonFg;
+titleButtonCloseBgActive: titleButtonCloseBg;
+titleButtonCloseFgActive: titleButtonCloseFg;
+
+titleButtonBgActiveOver: titleButtonBgOver;
+titleButtonFgActiveOver: titleButtonFgOver;
+titleButtonCloseBgActiveOver: titleButtonCloseBgOver;
+titleButtonCloseFgActiveOver: titleButtonCloseFgOver;
+
+// Side bar
+sideBarTextFg: fg4;
+sideBarBg: bg0_hard;
+sideBarBgRipple: windowBgRipple;
+sideBarIconFg: menuIconFg;
+sideBarBadgeBg: bright_red;
+sideBarBadgeBgMuted: sideBarIconFg;
+
+sideBarBgActive: dialogsBgActive;
+sideBarTextFgActive: windowActiveTextFg;
+sideBarIconFgActive: windowActiveTextFg;
