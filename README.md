@@ -2,7 +2,7 @@
 
 
 ![Telegram](https://img.shields.io/badge/Telegram-Theme-ba694b?style=flat&logo=telegram&logoColor=f9f8f4)
-
+![MIT License](https://img.shields.io/badge/License-MIT-6c9a8b?style=flat&logo=open-source-initiative&logoColor=f9f8f4)
 
 This repository contains custom themes for Telegram Desktop and iOS, designed to provide a unique and visually appealing experience. The themes are based on a carefully selected color palette and include options for different styles. Additionally, custom wallpapers are provided to complement the themes.
 
@@ -90,19 +90,16 @@ For the full theme files, check the `themes/desktop` directory.
 
 ---
 
-### Accent Color Palette
-
-| Color         | Badge                                                                                                                 | Hex Code   |
+| Color         | Badge                                                                                                               | Hex Code   |
 | ------------- | --------------------------------------------------------------------------------------------------------------------- | ---------- |
-| 🔶 **Orange** | ![Orange](https://img.shields.io/badge/Accent--Orange-ba694b?style=for-the-badge&logoColor=white&labelColor=2a2a28) | `#ba694b`  |
-| 🔷 **Blue**   | ![Blue](https://img.shields.io/badge/Accent--Blue-3d6cac?style=for-the-badge&logoColor=white&labelColor=2a2a28)     | `#3d6cac`  |
-| 🔴 **Red**    | ![Red](https://img.shields.io/badge/Accent--Red-d67762?style=for-the-badge&logoColor=white&labelColor=2a2a28)       | `#d67762`  |
-| 🟣 **Purple** | ![Purple](https://img.shields.io/badge/Accent--Purple-9b7aa6?style=for-the-badge&logoColor=white&labelColor=2a2a28) | `#9b7aa6`  |
-| 🟡 **Yellow** | ![Yellow](https://img.shields.io/badge/Accent--Yellow-c9a96e?style=for-the-badge&logoColor=white&labelColor=2a2a28) | `#c9a96e`  |
-| 🟢 **Aqua**   | ![Aqua](https://img.shields.io/badge/Accent--Aqua-6b9b9b?style=for-the-badge&logoColor=white&labelColor=2a2a28)     | `#6b9b9b`  |
+| 🔶 **Orange** | ![Orange](https://img.shields.io/badge/Accent_Orange-ba694b?style=flat&logo=materialdesignicons&logoColor=f9f8f4)   | `#ba694b`  |
+| 🔷 **Blue**   | ![Blue](https://img.shields.io/badge/Accent_Blue-3d6cac?style=flat&logo=materialdesignicons&logoColor=f9f8f4)       | `#3d6cac`  |
+| 🔴 **Red**    | ![Red](https://img.shields.io/badge/Accent_Red-d67762?style=flat&logo=materialdesignicons&logoColor=f9f8f4)         | `#d67762`  |
+| 🟣 **Purple** | ![Purple](https://img.shields.io/badge/Accent_Purple-9b7aa6?style=flat&logo=materialdesignicons&logoColor=f9f8f4)   | `#9b7aa6`  |
+| 🟡 **Yellow** | ![Yellow](https://img.shields.io/badge/Accent_Yellow-c9a96e?style=flat&logo=materialdesignicons&logoColor=f9f8f4)   | `#c9a96e`  |
+| 🟢 **Aqua**   | ![Aqua](https://img.shields.io/badge/Accent_Aqua-6b9b9b?style=flat&logo=materialdesignicons&logoColor=f9f8f4)       | `#6b9b9b`  |
 
 ---
- 
 
 ## Contributing
 
