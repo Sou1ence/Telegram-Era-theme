@@ -1,41 +1,40 @@
-// CUSTOM TELEGRAM THEME
-// Based on your color palette
+// ERA_CHIMERA TELEGRAM THEME
 
 // Base colors
-bg0_hard: #2a2a28;        // основной фон
-bg0:      #2f2f2d;        // чуть светлее фона
-bg0_soft: #333331;        // блоки сообщений
-bg1:      #3a3a37;        // светлее для hover
-bg2:      #4a4946;        // borders и разделители
-bg3:      #5a5954;        // еще светлее
-bg4:      #6a6964;        // самый светлый фон
+bg0_hard: #2a2a28;        // main background
+bg0:      #2f2f2d;        // slightly lighter background
+bg0_soft: #333331;        // message blocks
+bg1:      #3a3a37;        // lighter for hover
+bg2:      #4a4946;        // borders and dividers
+bg3:      #5a5954;        // even lighter
+bg4:      #6a6964;        // lightest background
 
-overlay: #2a2a2880;       // прозрачный overlay
-overlay_hard: #2a2a28c0;  // менее прозрачный overlay
+overlay: #2a2a2880;       // transparent overlay
+overlay_hard: #2a2a28c0;  // less transparent overlay
 
-neutral_gray: #8a8a85;    // нейтральный серый
+neutral_gray: #8a8a85;    // neutral gray
 
-fg:       #c0beb5;        // основной текст
-fg0:      #f9f8f4;        // текст сообщений (самый светлый)
-fg1:      #c0beb5;        // обычный текст
-fg2:      #aeaca3;        // чуть темнее текст
-fg3:      #9c9a91;        // еще темнее
-fg4:      #8a887f;        // самый темный текст
+fg:       #c0beb5;        // main text
+fg0:      #f9f8f4;        // message text (lightest)
+fg1:      #c0beb5;        // regular text
+fg2:      #aeaca3;        // slightly darker text
+fg3:      #9c9a91;        // even darker
+fg4:      #8a887f;        // darkest text
 
 // Accent colors
-bright_orange:  #ba694b;   // основной акцентный
-bright_blue:    #3d6cac;   // редкий цвет
-bright_red:     #d67762;   // для ошибок/внимания
-bright_green:   #9b7aa6;   // фиолетовый вместо зеленого
-bright_yellow:  #c9a96e;   // для предупреждений
-bright_purple:  #a67ba6;   // дополнительный
-bright_aqua:    #6b9b9b;   // дополнительный
+bright_orange:  #ba694b;   // primary accent
+bright_blue:    #3d6cac;   // rare color
+bright_red:     #d67762;   // for errors/alerts
+bright_green:   #9b7aa6;   // purple instead of green
+bright_yellow:  #c9a96e;   // for warnings
+bright_purple:  #a67ba6;   // secondary
+bright_aqua:    #6b9b9b;   // secondary
 
 // Neutral versions
 neutral_orange: #a85a3f;
 neutral_blue:   #335a96;
 neutral_red:    #c1624f;
-neutral_green:  #896894;   // нейтральный фиолетовый
+neutral_green:  #896894;    
 neutral_yellow: #b8955c;
 neutral_purple: #946b94;
 neutral_aqua:   #598888;
@@ -44,16 +43,16 @@ neutral_aqua:   #598888;
 faded_orange:   #965036;
 faded_blue:     #2b4d83;
 faded_red:      #ad5142;
-faded_green:    #775782;   // приглушенный фиолетовый
+faded_green:    #775782;   
 faded_yellow:   #a6824b;
 faded_purple:   #825982;
 faded_aqua:     #4a7575;
 
-// Material versions (для файлов)
+// Material versions (for files)
 material_orange: #ba694b;
 material_blue:   #3d6cac;
 material_red:    #d67762;
-material_green:  #9b7aa6;   // материал фиолетовый
+material_green:  #9b7aa6;    
 material_yellow: #c9a96e;
 material_purple: #a67ba6;
 material_aqua:   #6b9b9b;
@@ -148,7 +147,7 @@ sliderBgInactive: bg0;
 sliderBgActive: windowActiveTextFg;
 
 // Dialogs (chat list)
-dialogsBg: bg0_soft;           // фон списка чатов изменен на #333331
+dialogsBg: bg0_soft;           // The chat list background has been changed to #333331
 dialogsDateFg: neutral_gray;
 dialogsNameFg: fg1;
 dialogsTextFg: fg4;
@@ -202,14 +201,14 @@ boxTitleCloseFg: smallCloseIconFg;
 boxTitleCloseFgOver: smallCloseIconFgOver;
 
 // Messages
-msgInBg: bg0_soft;             // входящие сообщения
+msgInBg: bg0_soft;             // incoming messages
 msgInDateFg: fg4;
-msgInShadow: #4a494680;        // бордер входящих сообщений
+msgInShadow: #4a494680;        // border of incoming messages
 msgInMonoFg: bright_blue;
 
-msgOutBg: bg2;                 // исходящие сообщения  
+msgOutBg: bg2;                 // outgoing messages  
 msgOutDateFg: fg4;
-msgOutShadow: #4a494680;       // бордер исходящих сообщений
+msgOutShadow: #4a494680;       // border of outgoing messages
 msgOutMonoFg: bright_blue;
 
 msgServiceFg: fg1;
