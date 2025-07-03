@@ -9,7 +9,8 @@ This repository contains custom themes for Telegram Desktop and iOS, designed to
 ---
 ## Preview
 
-![изображение](https://github.com/user-attachments/assets/6611badc-600d-4091-9cd2-abd8a51354d4)
+![изображение](https://github.com/user-attachments/assets/aaf4c853-37e0-4ac7-b7ac-8e5b492130d5)
+![изображение](https://github.com/user-attachments/assets/ee44f7a4-374c-4e4a-929a-05b90d3873de)
 
 
 ---
