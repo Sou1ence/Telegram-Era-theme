@@ -1,6 +1,7 @@
+// @author: EraChimera
+
 name: Custom Dark iOS
-shortname: CustomDarkiOS
-// Based on your custom color palette
+shortname: CustomDarkiOS 
 // Converted from Desktop to iOS format
 basedOn: night
 dark: true
