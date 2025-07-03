@@ -1,0 +1,402 @@
+name: Custom Dark iOS
+shortname: CustomDarkiOS
+// Based on your custom color palette
+// Converted from Desktop to iOS format
+basedOn: night
+dark: true
+
+// Intro
+intro_statusBar: white
+intro_primaryText: #f9f8f4
+intro_accentText: #ba694b
+intro_disabledText: #8a887f
+intro_startButton: #ba694b
+intro_dot: #5a5954
+
+// Passcode
+passcode_bg_top: #2a2a28
+passcode_bg_bottom: #2a2a28
+passcode_button: #333331
+
+// Root Tab Bar
+root_statusBar: white
+root_tabBar_background: #2f2f2d
+root_tabBar_separator: #4a4946
+root_tabBar_icon: #8a887f
+root_tabBar_selectedIcon: #ba694b
+root_tabBar_text: #8a887f
+root_tabBar_selectedText: #ba694b
+root_tabBar_badgeBackground: #d67762
+root_tabBar_badgeStroke: #2a2a28
+root_tabBar_badgeText: #f9f8f4
+
+// Root Navigation Bar
+root_navBar_button: #ba694b
+root_navBar_disabledButton: #8a887f
+root_navBar_primaryText: #c0beb5
+root_navBar_secondaryText: #aeaca37F
+root_navBar_control: #9c9a91
+root_navBar_accentText: #ba694b
+root_navBar_background: #2f2f2d
+root_navBar_separator: #4a4946
+root_navBar_badgeFill: #d67762
+root_navBar_badgeStroke: #2a2a28
+root_navBar_badgeText: #f9f8f4
+root_navBar_segmentedBg: #3a3a37
+root_navBar_segmentedFg: #5a5954
+root_navBar_segmentedText: #c0beb5
+root_navBar_segmentedDivider: #4a4946
+
+// Search Bar
+root_searchBar_background: #333331
+root_searchBar_accent: #ba694b
+root_searchBar_inputFill: #3a3a37
+root_searchBar_inputText: #c0beb5
+root_searchBar_inputPlaceholderText: #8a8a85
+root_searchBar_inputIcon: #ba694b
+root_searchBar_inputClearButton: #3d6cac
+root_searchBar_separator: #4a4946
+root_keyboard: dark
+
+// Lists
+list_blocksBg: #2a2a28
+list_plainBg: #2f2f2d
+list_primaryText: #f9f8f4
+list_secondaryText: #8a8a85
+list_disabledText: #8a887f
+list_accent: #ba694b
+list_highlighted: #9b7aa6
+list_destructive: #d67762
+list_placeholderText: #6a6964
+list_itemBlocksBg: #333331
+list_itemHighlightedBg: #3a3a37
+list_blocksSeparator: #4a4946
+list_plainSeparator: #4a4946
+list_disclosureArrow: #c0beb547
+list_sectionHeaderText: #ba694b
+list_freeText: #aeaca3
+list_freeTextError: #d67762
+list_freeTextSuccess: #9b7aa6
+list_freeMonoIcon: #8a8a85
+
+// Switches
+list_switch_frame: #5a5954
+list_switch_handle: #2a2a28
+list_switch_content: #9b7aa6
+list_switch_positive: #9b7aa6
+list_switch_negative: #d67762
+
+// Disclosure Actions
+list_disclosureActions_neutral1_bg: #3a3a37
+list_disclosureActions_neutral1_fg: #f9f8f4
+list_disclosureActions_neutral2_bg: #c9a96e
+list_disclosureActions_neutral2_fg: #2a2a28
+list_disclosureActions_destructive_bg: #d67762
+list_disclosureActions_destructive_fg: #f9f8f4
+list_disclosureActions_constructive_bg: #9b7aa6
+list_disclosureActions_constructive_fg: #f9f8f4
+list_disclosureActions_accent_bg: #ba694b
+list_disclosureActions_accent_fg: #f9f8f4
+list_disclosureActions_warning_bg: #c9a96e
+list_disclosureActions_warning_fg: #2a2a28
+list_disclosureActions_inactive_bg: #6a6964
+list_disclosureActions_inactive_fg: #f9f8f4
+
+// Checkboxes & Controls
+list_check_bg: #9b7aa6
+list_check_stroke: #f9f8f47F
+list_check_fg: #2a2a28
+list_controlSecondary: #c0beb57F
+list_freeInputField_bg: #3a3a37
+list_freeInputField_stroke: #4a4946
+list_freeInputField_placeholder: #8a8a85
+list_freeInputField_primary: #f9f8f4
+list_freeInputField_control: #ba694b
+list_mediaPlaceholder: #4a4946
+list_scrollIndicator: #c0beb54C
+list_pageIndicatorInactive: #8a8a854C
+list_inputClearButton: #9c9a91
+
+// Bar Charts
+list_itemBarChart_color1: #9b7aa6
+list_itemBarChart_color2: #8a8a85
+list_itemBarChart_color3: #4a4946
+
+// Chat List
+chatList_bg: #2a2a28
+chatList_itemSeparator: #4a4946
+chatList_itemBg: #2f2f2d
+chatList_pinnedItemBg: #333331
+chatList_itemHighlightedBg: #3a3a37
+chatList_itemSelectedBg: #3a3a37
+chatList_title: #f9f8f4
+chatList_secretTitle: #9b7aa6
+chatList_dateText: #8a8a85
+chatList_authorName: #c0beb5
+chatList_messageText: #aeaca3
+chatList_messageHighlightedText: #f9f8f4
+chatList_messageDraftText: #d67762
+chatList_checkmark: #9b7aa6
+chatList_pendingIndicator: #c9a96e
+chatList_failedFill: #d67762
+chatList_failedFg: #f9f8f4
+chatList_muteIcon: #8a8a85
+chatList_unreadBadgeActiveBg: #ba694b
+chatList_unreadBadgeActiveText: #f9f8f4
+chatList_unreadBadgeInactiveBg: #8a8a85
+chatList_unreadBadgeInactiveText: #2a2a28
+chatList_pinnedBadge: #c9a96e
+chatList_pinnedSearchBar: #333331
+chatList_regularSearchBar: #333331
+chatList_sectionHeaderBg: #2f2f2d
+chatList_sectionHeaderText: #ba694b
+chatList_verifiedIconBg: #9b7aa6
+chatList_verifiedIconFg: #f9f8f4
+chatList_secretIcon: #9b7aa6
+chatList_pinnedArchiveAvatar_background_top: #3d6cac
+chatList_pinnedArchiveAvatar_background_bottom: #3d6cac
+chatList_pinnedArchiveAvatar_foreground: #f9f8f4
+chatList_unpinnedArchiveAvatar_background_top: #6a6964
+chatList_unpinnedArchiveAvatar_background_bottom: #6a6964
+chatList_unpinnedArchiveAvatar_foreground: #2a2a28
+chatList_onlineDot: #9b7aa6
+
+// Chat Messages - Incoming
+chat_message_incoming_bubble_withWp_bg: #333331
+chat_message_incoming_bubble_withWp_gradientBg: #333331
+chat_message_incoming_bubble_withWp_highlightedBg: #3a3a37
+chat_message_incoming_bubble_withWp_stroke: #4a4946
+chat_message_incoming_bubble_withoutWp_bg: #333331
+chat_message_incoming_bubble_withoutWp_gradientBg: #333331
+chat_message_incoming_bubble_withoutWp_highlightedBg: #3a3a37
+chat_message_incoming_bubble_withoutWp_stroke: #4a4946
+chat_message_incoming_primaryText: #f9f8f4
+chat_message_incoming_secondaryText: #c0beb57F
+chat_message_incoming_linkText: #ba694b
+chat_message_incoming_linkHighlight: #ba694b7F
+chat_message_incoming_scam: #d67762
+chat_message_incoming_textHighlight: #c9a96e
+chat_message_incoming_accentText: #ba694b
+chat_message_incoming_accentControl: #ba694b
+chat_message_incoming_mediaActiveControl: #ba694b
+chat_message_incoming_mediaInactiveControl: #ba694b66
+chat_message_incoming_mediaControlInnerBg: #2a2a28
+chat_message_incoming_pendingActivity: #c0beb57F
+chat_message_incoming_fileTitle: #c9a96e
+chat_message_incoming_fileDescription: #aeaca3
+chat_message_incoming_fileDuration: #aeaca3
+chat_message_incoming_mediaPlaceholder: #4a4946
+chat_message_incoming_polls_radioButton: #8a8a85
+chat_message_incoming_polls_radioProgress: #9b7aa6
+chat_message_incoming_polls_highlight: #9b7aa61E
+chat_message_incoming_polls_separator: #4a4946
+chat_message_incoming_polls_bar: #9b7aa6
+chat_message_incoming_polls_barIconForeground: #f9f8f4
+chat_message_incoming_polls_barPositive: #9b7aa6
+chat_message_incoming_polls_barNegative: #d67762
+chat_message_incoming_actionButtonsBg_withWp: #2a2a287F
+chat_message_incoming_actionButtonsBg_withoutWp: #2a2a287F
+chat_message_incoming_actionButtonsStroke_withWp: #4a49462D
+chat_message_incoming_actionButtonsStroke_withoutWp: #4a49462D
+chat_message_incoming_actionButtonsText_withWp: #f9f8f4
+chat_message_incoming_actionButtonsText_withoutWp: #f9f8f4
+chat_message_incoming_textSelection: #ba694b33
+chat_message_incoming_textSelectionKnob: #ba694b
+
+// Chat Messages - Outgoing
+chat_message_outgoing_bubble_withWp_bg: #4a4946
+chat_message_outgoing_bubble_withWp_gradientBg: #4a4946
+chat_message_outgoing_bubble_withWp_highlightedBg: #5a5954
+chat_message_outgoing_bubble_withWp_stroke: clear
+chat_message_outgoing_bubble_withoutWp_bg: #4a4946
+chat_message_outgoing_bubble_withoutWp_gradientBg: #4a4946
+chat_message_outgoing_bubble_withoutWp_highlightedBg: #5a5954
+chat_message_outgoing_bubble_withoutWp_stroke: clear
+chat_message_outgoing_primaryText: #f9f8f4
+chat_message_outgoing_secondaryText: #c0beb57F
+chat_message_outgoing_linkText: #ba694b
+chat_message_outgoing_linkHighlight: #ba694b7F
+chat_message_outgoing_scam: #d67762
+chat_message_outgoing_textHighlight: #c9a96e
+chat_message_outgoing_accentText: #ba694b
+chat_message_outgoing_accentControl: #ba694b
+chat_message_outgoing_mediaActiveControl: #ba694b
+chat_message_outgoing_mediaInactiveControl: #ba694b7F
+chat_message_outgoing_mediaControlInnerBg: #2a2a28
+chat_message_outgoing_pendingActivity: #c0beb57F
+chat_message_outgoing_fileTitle: #c9a96e
+chat_message_outgoing_fileDescription: #c0beb57F
+chat_message_outgoing_fileDuration: #c0beb57F
+chat_message_outgoing_mediaPlaceholder: #5a5954
+chat_message_outgoing_polls_radioButton: #f9f8f4
+chat_message_outgoing_polls_radioProgress: #ba694b
+chat_message_outgoing_polls_highlight: #ba694b1E
+chat_message_outgoing_polls_separator: #c0beb57F
+chat_message_outgoing_polls_bar: #ba694b
+chat_message_outgoing_polls_barIconForeground: #f9f8f4
+chat_message_outgoing_polls_barPositive: #ba694b
+chat_message_outgoing_polls_barNegative: #d67762
+chat_message_outgoing_actionButtonsBg_withWp: #2a2a287F
+chat_message_outgoing_actionButtonsBg_withoutWp: #2a2a287F
+chat_message_outgoing_actionButtonsStroke_withWp: #4a49462D
+chat_message_outgoing_actionButtonsStroke_withoutWp: #4a49462D
+chat_message_outgoing_actionButtonsText_withWp: #f9f8f4
+chat_message_outgoing_actionButtonsText_withoutWp: #f9f8f4
+chat_message_outgoing_textSelection: #ba694b33
+chat_message_outgoing_textSelectionKnob: #ba694b
+
+// Chat Messages - Freeform
+chat_message_freeform_withWp_bg: #2f2f2d
+chat_message_freeform_withWp_gradientBg: #2f2f2d
+chat_message_freeform_withWp_highlightedBg: #333331
+chat_message_freeform_withWp_stroke: #4a4946
+chat_message_freeform_withoutWp_bg: #2f2f2d
+chat_message_freeform_withoutWp_gradientBg: #2f2f2d
+chat_message_freeform_withoutWp_highlightedBg: #333331
+chat_message_freeform_withoutWp_stroke: #4a4946
+
+// Chat Messages - Info & Controls
+chat_message_infoPrimaryText: #f9f8f4
+chat_message_infoLinkText: #ba694b
+chat_message_outgoingCheck: #c9a96e
+chat_message_mediaDateAndStatusBg: #2a2a287F
+chat_message_mediaDateAndStatusText: #f9f8f4
+chat_message_shareButtonBg_withWp: #2a2a287F
+chat_message_shareButtonBg_withoutWp: #2a2a287F
+chat_message_shareButtonStroke_withWp: #4a49462D
+chat_message_shareButtonStroke_withoutWp: #4a49462D
+chat_message_shareButtonFg_withWp: #c0beb5
+chat_message_shareButtonFg_withoutWp: #c0beb5
+chat_message_mediaOverlayControl_bg: #2a2a2899
+chat_message_mediaOverlayControl_fg: #f9f8f4
+chat_message_selectionControl_bg: #ba694b
+chat_message_selectionControl_stroke: #f9f8f4
+chat_message_selectionControl_fg: #f9f8f4
+chat_message_deliveryFailed_bg: #d67762
+chat_message_deliveryFailed_fg: #f9f8f4
+chat_message_mediaHighlightOverlay: #f9f8f499
+
+// Service Messages
+chat_serviceMessage_components_withDefaultWp_bg: #2f2f2d
+chat_serviceMessage_components_withDefaultWp_primaryText: #f9f8f4
+chat_serviceMessage_components_withDefaultWp_linkHighlight: #ba694b1E
+chat_serviceMessage_components_withDefaultWp_scam: #d67762
+chat_serviceMessage_components_withDefaultWp_dateFillStatic: #2a2a2899
+chat_serviceMessage_components_withDefaultWp_dateFillFloat: #2a2a2833
+chat_serviceMessage_components_withCustomWp_bg: #2f2f2d
+chat_serviceMessage_components_withCustomWp_primaryText: #f9f8f4
+chat_serviceMessage_components_withCustomWp_linkHighlight: #ba694b1E
+chat_serviceMessage_components_withCustomWp_scam: #d67762
+chat_serviceMessage_components_withCustomWp_dateFillStatic: #2a2a2899
+chat_serviceMessage_components_withCustomWp_dateFillFloat: #2a2a2833
+chat_serviceMessage_unreadBarBg: #333331
+chat_serviceMessage_unreadBarStroke: #4a4946
+chat_serviceMessage_unreadBarText: #f9f8f4
+chat_serviceMessage_dateText_withWp: #c0beb5
+chat_serviceMessage_dateText_withoutWp: #c0beb5
+
+// Chat Input Panel
+chat_inputPanel_panelBg: #2f2f2d
+chat_inputPanel_panelSeparator: #4a4946
+chat_inputPanel_panelControlAccent: #ba694b
+chat_inputPanel_panelControl: #ba694b
+chat_inputPanel_panelControlDisabled: #ba694b7F
+chat_inputPanel_panelControlDestructive: #d67762
+chat_inputPanel_inputBg: #333331
+chat_inputPanel_inputStroke: #4a4946
+chat_inputPanel_inputPlaceholder: #8a8a85
+chat_inputPanel_inputText: #f9f8f4
+chat_inputPanel_inputControl: #ba694b
+chat_inputPanel_actionControlBg: #ba694b
+chat_inputPanel_actionControlFg: #f9f8f4
+chat_inputPanel_primaryText: #f9f8f4
+chat_inputPanel_secondaryText: #c0beb57F
+chat_inputPanel_mediaRecordDot: #d67762
+chat_inputPanel_mediaRecordControl_button: #ba694b
+chat_inputPanel_mediaRecordControl_micLevel: #ba694b33
+chat_inputPanel_mediaRecordControl_activeIcon: #f9f8f4
+
+// Chat Input Media Panel
+chat_inputMediaPanel_panelSeparator: #4a4946
+chat_inputMediaPanel_panelIcon: #ba694b
+chat_inputMediaPanel_panelHighlightedIconBg: #3a3a37
+chat_inputMediaPanel_stickersBg: #2f2f2d
+chat_inputMediaPanel_stickersSectionText: #8a8a85
+chat_inputMediaPanel_stickersSearchBg: #333331
+chat_inputMediaPanel_stickersSearchPlaceholder: #8a8a85
+chat_inputMediaPanel_stickersSearchPrimary: #f9f8f4
+chat_inputMediaPanel_stickersSearchControl: #ba694b
+chat_inputMediaPanel_gifsBg: #2f2f2d
+
+// Chat Input Button Panel
+chat_inputButtonPanel_panelBg: #2a2a28
+chat_inputButtonPanel_panelSeparator: #4a4946
+chat_inputButtonPanel_buttonBg: #5a5954
+chat_inputButtonPanel_buttonStroke: #333331
+chat_inputButtonPanel_buttonHighlightedBg: #5a5954B2
+chat_inputButtonPanel_buttonHighlightedStroke: #333331
+chat_inputButtonPanel_buttonText: #f9f8f4
+
+// Chat History Navigation
+chat_historyNav_bg: #2f2f2d
+chat_historyNav_stroke: #4a4946
+chat_historyNav_fg: #f9f8f4
+chat_historyNav_badgeBg: #ba694b
+chat_historyNav_badgeStroke: #ba694b
+chat_historyNav_badgeText: #f9f8f4
+
+// Wallpaper
+wallpaper: #2a2a28
+
+// Action Sheet
+actionSheet_dim: #2a2a287F
+actionSheet_bgType: dark
+actionSheet_opaqueItemBg: #2f2f2d
+actionSheet_itemBg: #2f2f2dCC
+actionSheet_opaqueItemHighlightedBg: #333331
+actionSheet_itemHighlightedBg: #3333317F
+actionSheet_opaqueItemSeparator: #4a4946
+actionSheet_standardActionText: #ba694b
+actionSheet_destructiveActionText: #d67762
+actionSheet_disabledActionText: #6a6964
+actionSheet_primaryText: #f9f8f4
+actionSheet_secondaryText: #8a8a85
+actionSheet_controlAccent: #ba694b
+actionSheet_inputBg: #333331
+actionSheet_inputHollowBg: #333331
+actionSheet_inputBorder: #4a4946
+actionSheet_inputPlaceholder: #8a8a85
+actionSheet_inputText: #f9f8f4
+actionSheet_inputClearButton: #9c9a91
+actionSheet_checkContent: #2a2a28
+
+// Context Menu
+contextMenu_dim: #2a2a2899
+contextMenu_background: #333331C6
+contextMenu_itemSeparator: #c0beb526
+contextMenu_sectionSeparator: #4a494633
+contextMenu_itemBg: #00000000
+contextMenu_itemHighlightedBg: #c0beb526
+contextMenu_primary: #f9f8f4
+contextMenu_secondary: #c0beb5CC
+contextMenu_destructive: #d67762
+
+// Notifications
+notification_bg: #2f2f2d
+notification_primaryText: #f9f8f4
+notification_expanded_bgType: dark
+notification_expanded_navBar_background: #2f2f2d
+notification_expanded_navBar_primaryText: #f9f8f4
+notification_expanded_navBar_control: #ba694b
+notification_expanded_navBar_separator: #4a4946
+
+// Charts
+chart_labels: #8a8a85
+chart_helperLines: #c0beb559
+chart_strongLines: #c0beb559
+chart_barStrongLines: #c0beb572
+chart_detailsText: #f9f8f4
+chart_detailsArrow: #c0beb5
+chart_detailsView: #333331
+chart_rangeViewFrame: #6a6964
+chart_rangeViewMarker: #f9f8f4
